@@ -1,0 +1,80 @@
+body{
+    background-color: #f4f4f4;
+}
+
+.sessao-formulario{
+    width: 100%;
+    height: 500px;
+
+}
+
+.bloco-formulario{
+    width: 500px;
+    height: 330px;
+    margin: 200px auto 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: beige;
+
+}
+.campos{
+    width: 320px;
+    margin:  auto;
+}
+
+.label-form{
+    font-size: 14px;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 10px;
+}
+
+.campo-form{
+    width: 300px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.campo-form-select{
+    width: 320px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+}
+.campo-form:focus{
+   outline: none;
+   background-color: lightblue;
+}
+.campo-form-select:focus{
+    outline: none;
+    background-color: lightblue;
+}
+
+.btn-enviar{
+    
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border:none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    background-color: chocolate;
+}
+
+
+.btn-enviar:hover{
+    background-color: coral;
+}
+
+.btn-enviar:focus{
+    outline: 1px solid chocolate;
+}
